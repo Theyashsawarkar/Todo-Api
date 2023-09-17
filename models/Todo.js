@@ -23,4 +23,5 @@ const todoSchema = new mongoose.Schema({
   },
 });
 
+// the name Todo will create the collection in db as todos
 module.exports = mongoose.model("Todo", todoSchema);
